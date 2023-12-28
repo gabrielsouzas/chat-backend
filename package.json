@@ -1,0 +1,25 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "Servidor para um chat local com um aplicativo React Native",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielsouzas/chat-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielsouzas/chat-backend/issues"
+  },
+  "homepage": "https://github.com/gabrielsouzas/chat-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ws": "^8.16.0"
+  }
+}
